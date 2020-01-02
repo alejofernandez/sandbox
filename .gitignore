@@ -1,0 +1,33 @@
+/platform-api
+/platform-cli
+/dist
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+.go/
+bin/
+
+*.log
+
+**-packr.go
+packrd/
+
+.vscode/
+
+__debug_bin
+cmd/platform-cli/dist/
+cmd/platform-cli@tmp/
+Brewfile.lock.json
+.env
+/.idea/
